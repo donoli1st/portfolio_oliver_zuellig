@@ -2,21 +2,21 @@
 
 My personal developer portfolio to showcase my abilities as a full‑stack engineer. This repo is at an early stage: the focus right now is on scaffolding (React + TypeScript + Vite) and establishing a clean baseline to iterate on sections like Projects, Skills, Experience, and Contact.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - React 19
 - TypeScript 5
 - Vite 7 (fast dev + build)
 - ESLint (React + TypeScript rules)
 
-## ✅ Current Status (MVP Foundations)
+## Current Status (MVP Foundations)
 
 - Basic React + TypeScript app bootstrapped
 - Vite development server & build scripts
 - Linting configured
 - Styling: (will evolve; currently simple CSS placeholders)
 
-## 🗂 Project Structure (key files)
+## Project Structure (key files)
 
 ```
 src/
@@ -27,7 +27,7 @@ public/           # Static assets
 vite.config.ts    # Vite configuration
 ```
 
-## 💻 Getting Started
+## Getting Started
 
 Clone and install dependencies:
 
@@ -61,7 +61,7 @@ Lint the code:
 npm run lint
 ```
 
-## 🔭 Roadmap (near-term)
+## Roadmap (near-term)
 
 - Add projects grid with live/demo + source links
 - Add skills section with categorized tech
@@ -69,15 +69,15 @@ npm run lint
 - Add contact form (client-side validation)
 - Improve responsive layout & theming (dark mode)
 
-## 🤝 Contributing
+## Contributing
 
 Not open for external contributions yet while core structure is evolving. Suggestions via issues are welcome.
 
-## 📄 License
+## License
 
 This project is licensed under the terms of the license in `LICENSE`.
 
-## 📬 Contact
+## Contact
 
 Will add dedicated contact section (email / LinkedIn / GitHub) in a later iteration.
 
