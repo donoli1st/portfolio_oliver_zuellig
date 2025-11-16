@@ -6,6 +6,7 @@ My personal developer portfolio to showcase my abilities as a full‑stack engin
 
 - React 19
 - TypeScript 5
+- Bootstrap 5
 - Vite 7 (fast dev + build)
 - ESLint (React + TypeScript rules)
 
