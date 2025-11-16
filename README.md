@@ -1,73 +1,85 @@
-# React + TypeScript + Vite
+# Portfolio – Oliver Zuellig
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal developer portfolio to showcase my abilities as a full‑stack engineer. This repo is at an early stage: the focus right now is on scaffolding (React + TypeScript + Vite) and establishing a clean baseline to iterate on sections like Projects, Skills, Experience, and Contact.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19
+- TypeScript 5
+- Vite 7 (fast dev + build)
+- ESLint (React + TypeScript rules)
 
-## React Compiler
+## ✅ Current Status (MVP Foundations)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- Basic React + TypeScript app bootstrapped
+- Vite development server & build scripts
+- Linting configured
+- Styling: (will evolve; currently simple CSS placeholders)
 
-## Expanding the ESLint configuration
+## 🗂 Project Structure (key files)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+	main.tsx        # App entry
+	App.tsx         # Root component
+	App.css / index.css  # Global styles
+public/           # Static assets
+vite.config.ts    # Vite configuration
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 💻 Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Clone and install dependencies:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone https://github.com/donoli1st/portfolio_oliver_zuellig.git
+cd portfolio_oliver_zuellig
+npm install
 ```
+
+Run the dev server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+Lint the code:
+
+```bash
+npm run lint
+```
+
+## 🔭 Roadmap (near-term)
+
+- Add projects grid with live/demo + source links
+- Add skills section with categorized tech
+- Add experience/timeline
+- Add contact form (client-side validation)
+- Improve responsive layout & theming (dark mode)
+
+## 🤝 Contributing
+
+Not open for external contributions yet while core structure is evolving. Suggestions via issues are welcome.
+
+## 📄 License
+
+This project is licensed under the terms of the license in `LICENSE`.
+
+## 📬 Contact
+
+Will add dedicated contact section (email / LinkedIn / GitHub) in a later iteration.
+
+---
+Early stage intentionally minimal. More polish, accessibility improvements, performance tuning, and content coming soon.
