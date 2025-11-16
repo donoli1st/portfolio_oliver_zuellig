@@ -1,4 +1,4 @@
-# Portfolio – Oliver Zuellig
+# Portfolio – Oliver Züllig
 
 My personal developer portfolio to showcase my abilities as a full‑stack engineer. This repo is at an early stage: the focus right now is on scaffolding (React + TypeScript + Vite) and establishing a clean baseline to iterate on sections like Projects, Skills, Experience, and Contact.
 
